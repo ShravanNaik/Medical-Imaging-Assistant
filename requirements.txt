@@ -1,0 +1,5 @@
+openai
+python-dotenv 
+streamlit 
+pysqlite3-binary
+agno
