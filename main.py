@@ -1,3 +1,10 @@
+
+
+import sys
+import importlib
+importlib.import_module('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import os
 import tempfile
 import uuid
